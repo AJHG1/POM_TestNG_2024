@@ -42,7 +42,7 @@ public class driver {
                     case "firefox":
                         driver = new FirefoxDriver();
                         break;
-                    case "safari":
+                    case "Edge":
                         driver = new EdgeDriver();
                         break;
                 }
