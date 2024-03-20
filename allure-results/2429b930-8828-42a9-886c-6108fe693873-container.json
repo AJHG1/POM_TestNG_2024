@@ -1,1 +1,11 @@
-{"uuid":"2429b930-8828-42a9-886c-6108fe693873","name":"POM_TestNG_2024","children":["8c722aae-0baa-4311-b4ad-5283c7a1c0f5"],"befores":[],"afters":[],"start":1710924953178,"stop":1710924961088}
+{
+  "uuid": "2429b930-8828-42a9-886c-6108fe693873",
+  "name": "POM_TestNG_2024",
+  "children": [
+    "8c722aae-0baa-4311-b4ad-5283c7a1c0f5"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1710924953178,
+  "stop": 1710924961088
+}

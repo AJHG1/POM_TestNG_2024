@@ -1,4 +1,4 @@
-package sda.tests;
+package sda.utlitiles;
 
 import java.io.FileInputStream;
 import java.io.IOException;
