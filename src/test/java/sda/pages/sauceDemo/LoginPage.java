@@ -4,11 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import sda.utilities.Driver;
+import sda.utlitiles.Driver;
+
 
 public class LoginPage {
-    public LoginPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public LoginPage() {
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(id = "user-name")
@@ -20,15 +21,11 @@ public class LoginPage {
     @FindBy(id = "login-button")
     public WebElement loginButton;
 
-    public void login(String name, String password){
+    public void login(String name, String password) {
         usernameField.sendKeys(name);
         passwordField.sendKeys(password);
         loginButton.click();
     }
-
-
-
-
 
 
 }
