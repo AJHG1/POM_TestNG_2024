@@ -20,7 +20,7 @@ public class LoginPage {
     }
 
     @FindBy(id = "user-name")
-    public WebElement userNameField;
+    public WebElement usernameField;
 
     @FindBy(id = "password")
     public WebElement passwordField;
@@ -29,9 +29,10 @@ public class LoginPage {
     public WebElement loginButton;
 
     public void login(String name, String password) {
-        userNameField.sendKeys(name);
+        usernameField.sendKeys(name);
         passwordField.sendKeys(password);
         loginButton.click();
     }
+
 
 }

@@ -21,9 +21,9 @@ public class InventoryPage {
     public WebElement selectedOption;
 
 
-    public void selectByIndex(int idx) {     // we can switch to text , value ...etc  e.g. selectByValue(text);
+    public void selectByIndex(int idx) {
         Select select = new Select(dropDown);
-        select.selectByIndex(idx);                  // we can switch to text , value ...etc  e.g. selectByValue(text);
+        select.selectByIndex(idx);
     }
 
     public void selectByVisibleText(String text) {
