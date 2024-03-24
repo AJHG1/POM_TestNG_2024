@@ -1,38 +1,30 @@
 package sda.tests;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import sda.pages.sauceDemo.FacebookLoginPage;
+import sda.pages.FacebookLoginPage;
 import sda.utlitiles.ConfigReader;
 import sda.utlitiles.Driver;
 
 public class C06_FacebookNegativeLoginTest {
-
     //Go to https://www.facebook.com/
 //Log in (faker class)
 //Test the "Failed to login" message
+
     @Test
-    public void Test() {
+    public void login() {
+
+        FacebookLoginPage facebookLoginPage = new FacebookLoginPage();
 
         //Go to https://www.facebook.com/
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
-    }
 
+        //Log in (faker class)
+        // Method which have all the sing in fields with faker class
 
-    //Log in (faker class)
-    @FindBy(id = "email")
-    public WebElement login;
+        facebookLoginPage.fakeLogin();
 
-    @FindBy(xpath = "//*[@type='password']")
-    public WebElement password;
-
-    @Test
-    public void teest() {
-
-        FacebookLoginPage loginPage = new FacebookLoginPage();
-        String url = "";
-
-        Driver.getDriver();
+        //Test the "Failed to login" message
+        Assert.assertTrue(facebookLoginPage.errorMess.isDisplayed());
     }
 }

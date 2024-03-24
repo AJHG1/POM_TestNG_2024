@@ -2,7 +2,8 @@ package sda.tests;
 
 public class C01_POMInfo {
 
-     /*
+
+    /*
     Page Object Model (POM): It is a model created to facilitate the preparation and execution of our tests
     in a more organized and easy manner. Although there are similar models created for frameworks,
     we learned POM as it is the most up-to-date and widely used model.
@@ -31,4 +32,6 @@ public class C01_POMInfo {
     It is created under the Utilities package. We can make the Driver class a Singleton.
     We create the driver as static and perform the assignment in the getDriver() method we created.
     */
+
+
 }

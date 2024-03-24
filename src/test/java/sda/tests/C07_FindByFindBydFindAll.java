@@ -7,9 +7,8 @@ import org.openqa.selenium.support.FindBys;
 
 import java.util.List;
 
-public class C07_FindByFindBysFindAll {
-
-    // @FindBy, @FindBys, and @FindAll are annotations used in the Java programming language
+public class C07_FindByFindBydFindAll {
+// @FindBy, @FindBys, and @FindAll are annotations used in the Java programming language
 // and Selenium test automation tool to locate elements on web pages.
 // - @FindBy is used to locate a single element.
 // - @FindBys is used to locate elements that combine multiple criteria.
@@ -35,7 +34,3 @@ public class C07_FindByFindBysFindAll {
     })
     public List<WebElement> findAll;
 }
-
-
-
-
