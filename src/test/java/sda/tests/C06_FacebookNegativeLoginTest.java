@@ -28,11 +28,11 @@ public class C06_FacebookNegativeLoginTest {
     public WebElement password;
 
     @Test
-    public void teest(){
+    public void teest() {
 
         FacebookLoginPage loginPage = new FacebookLoginPage();
         String url = "";
 
-        Driver.getDriver()
+        Driver.getDriver();
     }
 }

@@ -1,1 +1,61 @@
-{"uuid":"72b46b68-8997-4ee2-a6a3-a9bcf78f1e8d","historyId":"972a01b336e03dfa921f1e2456a01d74","fullName":"sda.tests.C03UseConfigReader.configReaderTest","labels":[{"name":"package","value":"sda.tests.C03UseConfigReader"},{"name":"testClass","value":"sda.tests.C03UseConfigReader"},{"name":"testMethod","value":"configReaderTest"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"POM_TestNG_2024"},{"name":"subSuite","value":"sda.tests.C03UseConfigReader"},{"name":"host","value":"DESKTOP-TVVT5CH"},{"name":"thread","value":"10260@DESKTOP-TVVT5CH.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"configReaderTest","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1711002943999,"stop":1711002954420}
+{
+  "uuid": "72b46b68-8997-4ee2-a6a3-a9bcf78f1e8d",
+  "historyId": "972a01b336e03dfa921f1e2456a01d74",
+  "fullName": "sda.tests.C03UseConfigReader.configReaderTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "sda.tests.C03UseConfigReader"
+    },
+    {
+      "name": "testClass",
+      "value": "sda.tests.C03UseConfigReader"
+    },
+    {
+      "name": "testMethod",
+      "value": "configReaderTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "POM_TestNG_2024"
+    },
+    {
+      "name": "subSuite",
+      "value": "sda.tests.C03UseConfigReader"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TVVT5CH"
+    },
+    {
+      "name": "thread",
+      "value": "10260@DESKTOP-TVVT5CH.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "configReaderTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1711002943999,
+  "stop": 1711002954420
+}

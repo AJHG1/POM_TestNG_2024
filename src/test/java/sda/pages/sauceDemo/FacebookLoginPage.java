@@ -26,7 +26,7 @@ public class FacebookLoginPage {
     public WebElement loginbutton;
 
     public void login(Faker name, Faker password) {
-Faker faker = new Faker();
+        Faker faker = new Faker();
 
         loginbutton.click();
     }
