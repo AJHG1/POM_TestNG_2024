@@ -10,9 +10,9 @@ import sda.pages.HomeWork.HWebayserch;
 import sda.utlitiles.Driver;
 
 public class HWebayserchTest {
-     Actions addcart;
-     Actions item;
-     Actions searchfiled;
+    Actions addcart;
+    Actions item;
+    Actions searchfiled;
 
     //Day20:HW04
     //// Navigate to https://www.ebay.com/

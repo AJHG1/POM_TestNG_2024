@@ -27,7 +27,7 @@ public class HWebayserch {
     @FindBy(xpath = "//*[@id='gh-ac']")
     public WebElement searchfiled;
 
-//xpath for add to cart button
+    //xpath for add to cart button
     @FindBy(xpath = "//*[.='Add to cart']")
     public WebElement item;
 
